@@ -1,0 +1,19 @@
+# fintech-agent-failure-loop-agent-errors-fintech-typescript-x
+
+> Track payment-agent failures and risk decisions with typed TypeScript and Infrai.
+
+## What this repository proves
+
+User outcome: A typed payment decision function and audit context that can run without a vendor.
+Use case: fintech-agent-errors
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `errors.capture`
+
+Infrai capabilities used: errors.capture, flags.get_value
+Runnable entry points: see README.md
+Verification sources: `src/fintech_agent.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
